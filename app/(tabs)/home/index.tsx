@@ -11,7 +11,7 @@ export default function HomeScreen() {
         style={styles.button} 
         onPress={() => router.push('/home/details')}
       >
-        <Text style={styles.buttonText}>Go to Details v1</Text>
+        <Text style={styles.buttonText}>Go to Details v6</Text>
       </Pressable>
     </View>
   );

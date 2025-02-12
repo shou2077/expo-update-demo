@@ -12,7 +12,7 @@ export default function HomeLayout() {
         },
         headerTintColor: colorScheme === 'dark' ? '#fff' : '#000',
       }}>
-      <Stack.Screen
+      {/* <Stack.Screen
         name="index"
         options={{
           title: 'Home',
@@ -23,7 +23,7 @@ export default function HomeLayout() {
         options={{
           title: 'Details',
         }}
-      />
+      /> */}
     </Stack>
   );
 } 

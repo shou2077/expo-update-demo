@@ -30,6 +30,14 @@ export default function TabLayout() {
       <Tabs.Screen
         name="profile"
         options={{
+          title: "Hello1",
+          tabBarIcon: ({ color }) => <IconSymbol name="person" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="todo"
+        options={{
+          title: "Task",
           tabBarIcon: ({ color }) => <IconSymbol name="person" color={color} />,
         }}
       />
